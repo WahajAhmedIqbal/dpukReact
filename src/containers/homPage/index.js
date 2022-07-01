@@ -1,10 +1,19 @@
 import React from 'react'
-import { HeaderComponent } from '../../components'
+import {
+  HeaderComponent,
+  SunVideo
+} from '../../components'
+
+// style 
+import './homepage.scss'
 
 const HomePageContainer = () => {
   return (
-    <div>
-          <HeaderComponent />
+    // <div className='homebodyContainer'>
+    <div className="">
+      <HeaderComponent >
+      </HeaderComponent>
+        <SunVideo />
     </div>
   )
 }
