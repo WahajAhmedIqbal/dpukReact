@@ -1,9 +1,12 @@
 import React from 'react'
 import Routers from './routers'
+import './style/common.scss'
 
 const App = () => {
   return (
-    <Routers />
+    <div className="appBody">
+      <Routers />
+    </div>
   )
 }
 
